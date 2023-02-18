@@ -1,0 +1,9 @@
+.container{
+    color: white;
+    background-color: rgb(73, 71, 71);
+}
+
+.button{
+    width: 50%;
+    margin-bottom: 20px;
+}

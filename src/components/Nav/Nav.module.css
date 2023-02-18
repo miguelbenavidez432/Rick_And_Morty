@@ -1,0 +1,36 @@
+.navbar{    
+    display: flex;
+    background-color: rgb(3, 119, 94);
+    width: fit-content;
+    height: 3rem;
+}
+
+.img{
+    display: block;
+    width: 10%;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    margin: 5px;
+    float: right;
+}
+
+.span{
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.span:hover{
+    text-decoration: none;
+    color: rgb(44, 41, 41);
+    background-color: white;
+    text-align: left;
+    transition: 500ms;
+}
