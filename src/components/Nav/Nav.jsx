@@ -5,13 +5,18 @@ import imgnav from "../../img/imgnav.png";
 import { NavLink } from "react-router-dom"
 
 
-export default function Nav({ onSearch }) {
+export default function Nav({ onSearch, logout }) {
+const handleChange = () => {
+    logout();
+}
+
     return(
         <nav className={style.navbar}>
             <div><img className={style.img} src={imgnav} alt="" /></div>
             <NavLink className={style.span} to="/home">HOME</NavLink>
             <NavLink className={style.span} to="/about">ABOUT</NavLink>            
-           <div className={style.search} ><SearchBar onSearch={onSearch}/></div>            
+            <div ><SearchBar onSearch={onSearch}/></div>   
+            <div className={style.span} onClick={handleChange}>LOGOUT</div>         
         </nav>
     )
 }
