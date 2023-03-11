@@ -1,0 +1,32 @@
+.container{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: 8px solid rgb(52, 52, 141);
+    border-radius: 50px;
+    width: fit-content;
+    padding: 1rem ;
+    margin: 1.5rem 35%;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+}
+.container:link{
+    color: black;
+}
+
+.image{
+    border-radius: 99999999999999999px;
+    text-decoration: none;
+}
+
+.button{
+    background-color: rgb(161, 10, 10);
+    color: white;
+    margin-left: 1rem;
+}
+.button2{
+    background-color: rgb(15, 1, 1);
+    color: white;
+    margin-left: 1rem;
+}
